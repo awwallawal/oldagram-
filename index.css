@@ -96,6 +96,26 @@ body{
 
 }
 
+.post-image2{
+    background: url(./images/post-courbet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-image3{
+    background: url(./images/post-ducreux.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .section-body{
     width: 346px;
     height: 78px;
@@ -115,12 +135,10 @@ body{
 }
 
 .icon-size:hover, .icon-size:focus, .icon-size:active{
-    background-color: #52e329;
+    opacity: 0.64;
 }
 
-.icon-size:active{
-    background-color: #531a51;
-}
+
 
 .like-count{
     display: flex;
